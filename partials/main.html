@@ -212,7 +212,7 @@
 
       <div class="row center">
           <div class="col s3">
-            <img src="./assets/link-logo.png" alt="LiNK logo" height="100px" width="100px">
+            <a href="http://www.libertyinnorthkorea.org/"><img src="./assets/link-logo.png" alt="LiNK logo" height="100px" width="100px"></a>
             <h5>LiNK COMMUNITY</h5>
             <p>We have rescue teams organized all over the World. Find one near you or start your own!</p>
           </div>
@@ -251,10 +251,8 @@
           <i class="tiny material-icons">new_releases</i>
           <ul >
             <li ng-repeat= "story in news"><i class="tiny material-icons">{{ story.categoryimg}}</i><a href="{{ story.link }}" target="_blank">{{ story.title }} </a>
-
                   <p>{{story.group}}, {{ story.date }}</p>
                   <a class="locate" lat="{{ story.lat }}" lon="{{ story.lon }}" href="#/"><img class="locate_pin locate" lat="{{ story.lat }}" lon="{{ story.lon }}" src="../assets/locate_pin.png" height="20px"></a>
-
             </li>
           </ul>
         </div>

@@ -126,7 +126,9 @@ span .team_raised {
 .nav-wrapper {
   padding: 0em 1em;
 }
-
+#brand-link {
+  font-size: 1.9em;
+}
 #dropdown-content {
   display: none;
 }

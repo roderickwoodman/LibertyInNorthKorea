@@ -6,8 +6,8 @@ myApp.config(function ($routeProvider){
     .when('/', {
         templateUrl: 'partials/main.html'
     })
-    .when('/team', {
-        templateUrl: 'partials/team.html'
+    .when('/team-utaustin', {
+        templateUrl: 'partials/team-utaustin.html'
     })
     .when('/team-sjsu', {
         templateUrl: 'partials/team-sjsu.html'

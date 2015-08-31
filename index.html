@@ -29,32 +29,41 @@
     <!-- Navigation -->
 
     <nav class="link-background-color" role="navigation" ng-controller='memberController'>
-        <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo left">LiNK</a>
-            <ul class="right hide-on-med-and-down right">
-                <li>
-                    <my-user-login>
-                        <a id="dropdown-login" href="#/">Member Login</a>
-                        <ul id="login-form">
-                            <li id="loginForm">
-                                <input type="text" ng-model="memberLogin.username" placeholder="Username">
-                                <input type="password" ng-model="memberLogin.password" placeholder="Password">
-                                <button id="loginButton" class="waves-effect waves-light btn" ng-click="login()">Login</button>
-                            </li>
-                        </ul>
-                        <a href="#/" id="loggedInUser">Admin</a>
-                    </my-user-login>
-                </li>
-                <li>
-                    <a href="#/">Home</a>
-                </li>
-            </ul>
+        <div class="nav-wrapper">
 
-            <!-- <ul id="nav-mobile" class="side-nav">
-                <li>
-                    <a href="#">mobile link</a>
-                </li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
+            <div class="row center">
+
+                <div class="col s6">
+                    <ul>
+                        <li>
+                            <a id="brand-link" href="http://www.libertyinnorthkorea.org/">LiNK</a>
+                        </li>
+                        <li>
+                            <a href="#/">Community</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col s6">
+                    <ul class="right hide-on-med-and-down right">
+                        <li>
+                            <my-user-login>
+                                <a id="dropdown-login" href="#/">Member Login</a>
+                                <ul id="login-form">
+                                    <li id="loginForm">
+                                        <input type="text" ng-model="memberLogin.username" placeholder="Username">
+                                        <input type="password" ng-model="memberLogin.password" placeholder="Password">
+                                        <button id="loginButton" class="waves-effect waves-light btn" ng-click="login()">Login</button>
+                                    </li>
+                                </ul>
+                                <a href="#/" id="loggedInUser">Admin</a>
+                            </my-user-login>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
         </div>
     </nav>
 

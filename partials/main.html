@@ -209,29 +209,27 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <!-- <h1 class="header center orange-text">Liberty in North Korea</h1> -->
 
-    <div class="row center">
-        <div class="col s3">
-          <img src="./assets/link-logo.png" alt="LiNK logo" height="100px" width="100px">
-          <h5>LiNK COMMUNITY</h5>
-          <p>We have rescue teams organized all over the World. Find one near you or start your own!</p>
-        </div>
-        <div class="col s4">
-            <div id="members" style="width:100%; height:300px;"></div>
-        </div>
-        <div class="col s4">
-            <div id="money" style="width:100%; height:300px;"></div>
-        </div>
-    </div>
-
-
+      <div class="row center">
+          <div class="col s3">
+            <img src="./assets/link-logo.png" alt="LiNK logo" height="100px" width="100px">
+            <h5>LiNK COMMUNITY</h5>
+            <p>We have rescue teams organized all over the World. Find one near you or start your own!</p>
+          </div>
+          <div class="col s4">
+              <div id="members" style="width:100%; height:300px;"></div>
+          </div>
+          <div class="col s4">
+              <div id="money" style="width:100%; height:300px;"></div>
+          </div>
+      </div>
 
       <div class="row center">
         <h5 class="header col s8 light">NEARBY RESCUE TEAMS</h5>
         <h5 class="header col s4 light">BLOG</h5>
       </div>
       <div class="row center">
+
         <div class="col s8">
           <div id="pointers_map">
           </div>
@@ -242,45 +240,26 @@
             <span class="col s2 funding_legend_blue">$5000+</span>
           </div>
         </div>
+
         <div class="col s4 newsfeed">
-                        <i class="tiny material-icons" alt="perm_identity">perm_identity</i>
-            <i class="tiny material-icons">settings_voice</i>
-            <i class="tiny material-icons">subject</i>
-            <i class="tiny material-icons">visibility</i>
-            <i class="tiny material-icons">assignment</i>
-            <i class="tiny material-icons">settings_power</i>
-            <i class="tiny material-icons">new_releases</i>
-              <ul >
-                <li ng-repeat= "story in news"><i class="tiny material-icons">{{ story.categoryimg}}</i><a href="{{ story.link }}" target="_blank">{{ story.title }} </a>
+          <i class="tiny material-icons" alt="perm_identity">perm_identity</i>
+          <i class="tiny material-icons">settings_voice</i>
+          <i class="tiny material-icons">subject</i>
+          <i class="tiny material-icons">visibility</i>
+          <i class="tiny material-icons">assignment</i>
+          <i class="tiny material-icons">settings_power</i>
+          <i class="tiny material-icons">new_releases</i>
+          <ul >
+            <li ng-repeat= "story in news"><i class="tiny material-icons">{{ story.categoryimg}}</i><a href="{{ story.link }}" target="_blank">{{ story.title }} </a>
 
-                      <p>{{story.group}}, {{ story.date }}</p>
-                      <a class="locate" lat="{{ story.lat }}" lon="{{ story.lon }}" href="#/"><img class="locate_pin locate" lat="{{ story.lat }}" lon="{{ story.lon }}" src="../assets/locate_pin.png" height="20px"></a>
+                  <p>{{story.group}}, {{ story.date }}</p>
+                  <a class="locate" lat="{{ story.lat }}" lon="{{ story.lon }}" href="#/"><img class="locate_pin locate" lat="{{ story.lat }}" lon="{{ story.lon }}" src="../assets/locate_pin.png" height="20px"></a>
 
-                </li>
-              </ul>
-              
-           
+            </li>
+          </ul>
         </div>
-        </div>
+
       </div>
-
-
-    </div>
-  </div>
-
-
-  <div class="container" ng-controller="mainController">
-    <div class="section">
-      <!-- newsfeed -->
-      
-     
- 
-      </div>
-
-    </div>
-    <br><br>
-
-    <div class="section">
 
     </div>
   </div>

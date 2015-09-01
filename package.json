@@ -1,0 +1,19 @@
+{
+  "name": "libertyinnorthkorea",
+  "version": "1.0.0",
+  "description": "\"hackathon project for Liberty In North Korea org\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roderickwoodman/LibertyInNorthKorea.git"
+  },
+  "author": "Rod Woodman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roderickwoodman/LibertyInNorthKorea/issues"
+  },
+  "homepage": "https://github.com/roderickwoodman/LibertyInNorthKorea#readme"
+}
